@@ -44,12 +44,6 @@ cask 'visual-studio-code'
 cask 'vlc'
 cask 'zoom'
 
-# Quicklook
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'quicklook-csv'
-
 # Fonts
 cask 'font-lato'
 cask 'font-open-sans'
