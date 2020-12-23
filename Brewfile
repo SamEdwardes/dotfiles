@@ -4,81 +4,45 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
-# Binaries
-brew 'awscli'
+# Formula install
 brew 'bash' # Latest Bash version
+brew 'cmake'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'gh'
 brew 'git'
-brew 'gnupg2'
-brew 'grep'
-brew 'httpie'
-brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
-brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe/stripe-cli/stripe'
-brew 'svn'
-brew 'trash' # Manage the Trash bin
-brew 'tree' # List directories in a tree structure
-brew 'zlib' # Needed for Memcached
-
-# Spatie Medialibrary
-brew 'jpegoptim'
-brew 'optipng'
-brew 'pngquant'
-brew 'svgo'
-brew 'gifsicle'
-
-# Development
-brew 'php'
-brew 'php@7.4'
-brew 'php@7.3'
-brew 'composer'
-brew 'imagemagick'
-brew 'libmemcached'
-brew 'memcached'
-brew 'mysql'
-brew 'nginx'
 brew 'node'
-brew 'redis'
+brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20d
+brew 'tree' # List directories in a tree structure
+brew 'vim'
 brew 'yarn'
 
-# Apps
-cask '1password'
-cask '1password-cli'
-cask 'aerial'
-cask 'alfred'
-cask 'caffeine'
-cask 'dbngin'
+# Cask install
+cask 'adguard'
+cask 'chromedriver'
 cask 'discord'
 cask 'docker'
 cask 'figma'
 cask 'firefox'
 cask 'github'
-cask 'google-backup-and-sync'
 cask 'google-chrome'
-cask 'gpg-suite'
-cask 'imageoptim'
-cask 'insomnia'
-cask 'notion'
-cask 'phpstorm'
-cask 'screenflow'
-cask 'skype'
+cask 'iterm2'
+cask 'plex-media-server'
+cask 'postman'
+cask 'private-internet-access'
+cask 'miniconda'
+cask 'xquartz'
+cask 'r'
+cask 'rstudio'
 cask 'slack'
-cask 'steam'
 cask 'sublime-text'
-cask 'tableplus'
-cask 'telegram-desktop'
-cask 'the-unarchiver'
-cask 'there'
-cask 'tinkerwell'
 cask 'transmission'
-cask 'transmit'
+cask 'typora'
 cask 'visual-studio-code'
 cask 'vlc'
-cask 'whatsapp'
+cask 'zoom'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -96,11 +60,10 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Byword', id: 420212497
-mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Spark', id: 1176895641
-mas 'Speedtest', id: 1153157709
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
+mas 'Amphetamine', id: 937984704
+mas 'Final Cut Pro', id: 424389933
+mas 'Kindle', id: 405399194
+mas 'Magnet', id: 441258766
+mas 'Microsoft Excel', id: 462058435
+mas 'Microsoft PowerPoint', id: 462062816
+mas 'Microsoft Word', id: 462054704
